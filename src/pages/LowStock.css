@@ -1,0 +1,59 @@
+.low-stock-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.low-stock-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color:#1e3a8a; /* Standard Navy Blue */
+    font-weight: bold;
+}
+
+
+.low-stock-products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.low-stock-table-container {
+    width: 100%;
+    overflow-x: auto;
+    border-radius: 8px;
+}
+
+.low-stock-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.low-stock-thead {
+    background: #333;
+    color: #fff;
+}
+
+.low-stock-thead tr th {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 2px solid #555;
+}
+
+.low-stock-tbody tr td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.low-stock-quantity {
+    color: #d9534f;
+    font-weight: bold;
+}
+
+.no-low-stock-message {
+    font-size: 18px;
+    color: #28a745;
+    margin-top: 20px;
+}
